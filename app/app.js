@@ -18,7 +18,7 @@ socket.on('message', (text, user) => {
     console.log('user as received: ' + user);
     const item = document.createElement('li');
     const content = `
-    <div class="heading">
+    <div class="heading message-box">
       <span class="username">${user}</span>
       <span class="message"> ${text}</span>
     </div>
