@@ -1,9 +1,5 @@
 {
   "version": 2,
   "builds": [{ "src": "app/**", "use": "@vercel/static" }],
-  "routes": [{ "src": "/(.*)", "dest": "app/$1" }],
-  "error": {
-    "statusCode": 404,
-    "page": "404.html"
-  }
+  "routes": [{ "src": "/(.*)", "dest": "app/$1" }]
 }
